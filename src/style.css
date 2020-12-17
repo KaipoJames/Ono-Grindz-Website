@@ -1,0 +1,86 @@
+/* <------- GENERAL STYLES --------> */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 3.8rem;
+}
+h2 {
+  font-size: 1.7rem;
+}
+h3 {
+  font-size: 2rem;
+}
+h4 {
+  font-size: 1.3rem;
+}
+
+/* <------- HEADER STYLES --------> */
+.nav {
+  width: 100vw;
+  height: 13vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo {
+  height: 13vh;
+  width: auto;
+  cursor: pointer;
+}
+.nav-list {
+  width: 40vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav-list li {
+  font-size: 1.6rem;
+  list-style: none;
+  cursor: pointer;
+}
+#language-select {
+  cursor: pointer;
+}
+.login-list {
+  width: 15vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.login-list > * {
+  cursor: pointer;
+}
+
+main {
+  height: 90vh;
+}
+.container {
+  width: 60vw;
+  padding: 5rem 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.container-child {
+  margin: 0.5rem 0rem;
+}
+.button {
+  cursor: pointer;
+  outline: none;
+  font-size: 1rem;
+  background: rgb(165, 233, 186);
+  width: 8rem;
+  height: 3rem;
+  border-radius: 20px;
+}
+
+footer {
+  width: 100vw;
+  height: 10vh;
+}
+footer h2 {
+  padding: 0rem 4rem;
+}
