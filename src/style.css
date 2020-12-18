@@ -17,6 +17,12 @@ h4 {
   font-size: 1.3rem;
 }
 
+:root {
+  --select-border: #777;
+  --select-focus: blue;
+  --select-arrow: var(--select-border);
+}
+
 /* <------- HEADER STYLES --------> */
 .nav {
   width: 100vw;
@@ -42,7 +48,19 @@ h4 {
   cursor: pointer;
 }
 #language-select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url(/img/down-arrow.png);
+  background-repeat: no-repeat;
+  background-position: center right;
+  outline: none;
+  background-color: transparent;
+  padding: 0.5rem;
   cursor: pointer;
+  height: 5vh;
+  width: 6vw;
+  border-radius: 20px;
 }
 .login-list {
   width: 15vw;
