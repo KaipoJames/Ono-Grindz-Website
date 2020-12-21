@@ -37,6 +37,12 @@ h4 {
   width: auto;
   cursor: pointer;
 }
+.active {
+  background: rgb(168, 165, 165);
+  color: white;
+  padding: 0.4rem 1rem;
+  border-radius: 2rem;
+}
 .nav-list {
   width: 40vw;
   display: flex;
@@ -96,9 +102,9 @@ main {
   justify-content: center;
   align-items: center;
 }
-.menu-btn {
+/* .menu-btn {
   margin-top: 2.5rem;
-}
+} */
 .aloha-text {
   color: rgb(136, 211, 230);
 }

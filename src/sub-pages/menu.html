@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).prop("title", "Ono Grindz | Menu");
+        //$(function() {
+        //    $("#header").load("../header.html");
+        //    $("#footer").load("../footer.html");
+        //});
+    </script>
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <img src="/img/logo.png" alt="logo-img" class="logo">
+            <ul class="nav-list">
+                <li class="nav-list-item home-btn"><a href="../index.html">Home</a></li>
+                <li class="nav-list-item about-btn"><a href="./about.html">About</a></li>
+                <li class="active nav-list-item menu-btn"><a href="./menu.html">Menu</a></li>
+                <li class="nav-list-item gallery-btn"><a href="./gallery.html">Gallery</a></li>
+                <li class="nav-list-item contact-btn"><a href="./contact.html">Contact</a></li>
+            </ul>
+            <select name="language-select" id="language-select">
+                <option value="english" selected>ENG</option>
+                <option value="portuguese">POR</option>
+                <option value="hawaiian">HAW</option>
+            </select>
+            <div class="login-list">
+                <div class="login-btn button">Login</div>
+                <div class="signup-btn button">Sign Up</div>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="container">
+            <h3 class="container-child aloha-text">Aloha,</h3>
+            <h1 class="container-child message-text">The best grindz on the island. Don't miss out on our chicken lū'au special!</h1>
+            <button class="button container-child menu-btn">View Menu</button>
+        </div>
+    </main>
+
+    <footer>
+        <h2>Ono Grindz &copy2020</h2>
+    </footer>
+
+    <script src="../index.js"></script>
+</body>
+</html>
