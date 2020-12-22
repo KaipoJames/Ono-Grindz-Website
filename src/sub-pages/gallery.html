@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/gallery.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
     </style>
@@ -42,11 +43,44 @@
     </header>
     
     <main>
-        <div class="container">
-            <h3 class="container-child aloha-text">Aloha,</h3>
-            <h1 class="container-child message-text">The best grindz on the island. Don't miss out on our chicken lū'au special!</h1>
-            <button class="button container-child menu-btn">View Menu</button>
+        <!-- SLIDER -->
+        <div class="slides-container">
+            <div class="slides">
+                <div class="slide fade">
+                    <img class="slide-img" src="/img/squid-luau.jpg" alt="">
+                    <div class="text">Squid Lū'au</div>
+                </div>
+                <div class="slide fade">
+                    <img class="slide-img" src="/img/kalua-pig.jpg" alt="">
+                    <div class="text">Kalua Pig</div>
+                </div>
+                <div class="slide fade">
+                    <img class="slide-img" src="/img/laulau.jpg" alt="">
+                    <div class="text">Laulau</div>
+                </div>
+                <div class="slide fade">
+                    <img class="slide-img" src="/img/lomi-salmon.jpg" alt="">
+                    <div class="text">Lomi Salmon</div>
+                </div>
+                <div class="slide fade">
+                    <img class="slide-img" src="/img/poi.jpg" alt="">
+                    <div class="text">Poi</div>
+                </div>
+            </div>
+
+            <!-- previous and next buttons -->
+            <div class="prev-btn">&#10094;</div>
+            <div class="next-btn">&#10095;</div>
         </div>
+
+        <div class="dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+
     </main>
 
     <footer>

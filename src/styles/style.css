@@ -35,12 +35,13 @@ h4 {
 .logo {
   height: 13vh;
   width: auto;
+  margin-top: 0.5rem;
   cursor: pointer;
 }
 .active {
   background: rgb(168, 165, 165);
   color: white;
-  padding: 0.4rem 1rem;
+  padding: 0.3rem 0.9rem;
   border-radius: 2rem;
 }
 .nav-list {
