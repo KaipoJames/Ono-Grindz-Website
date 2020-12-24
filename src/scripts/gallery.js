@@ -13,10 +13,7 @@ const displaySlides = (index) => {
     }
     if (index < 1) {
         slideIndex = slides.length;
-    } 
-    console.log("Index: " + index);
-    console.log("SlideIndex: " + slideIndex);
-
+    }
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
     }
