@@ -1,8 +1,12 @@
+import { myTranslations } from "./translations.js"
+
 const logo = document.querySelector(".logo");
 const select = document.querySelector("#language-select");
 // document.addEventListener("DOMContentLoaded", () => {
 //     console.log(window.location.pathname);
 // });
+
+console.log(myTranslations);
 
 if (logo) {
     logo.addEventListener("click", () => { window.location.href = "/src/index.html"; console.log("clicked logo"); });
@@ -25,3 +29,4 @@ document.addEventListener("input", (event) => {
         console.log("Hawaiian Translations");
     }
 }, false);
+
